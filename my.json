@@ -1,0 +1,27 @@
+{
+   "my_set": [
+      "apple",
+      true,
+      42,
+      3.14
+   ],
+   "my_tuple": [
+      "banana",
+      99,
+      2.718,
+      false
+   ],
+   "my_dict": {
+      "id": 101,
+      "name": "Alice",
+      "score": 88,
+      "active": true
+   },
+   "my_list": [
+      7,
+      "orange",
+      15.6,
+      "apple",
+      7
+   ]
+}
