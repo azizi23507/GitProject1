@@ -246,8 +246,8 @@ print()
 # A Linked List is, as the word implies, a list where the nodes are linked together. Each node contains data and a pointer.
 # The way they are linked together is that each node points to where in the memory the next node is placed.
 
-# Linked list
-"""
+# Double Linked list
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -290,7 +290,7 @@ while current_node !=end_node:
     print(current_node.data, end=" -> ")
     current_node = current_node.prev
 print("...")
-"""
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -405,6 +405,7 @@ print("isEmpty:, ", my_stack.is_empty())
 print("Size: ", my_stack.size())
 print()
 print()
+
 
 # stuck using linked list
 class Node1:
