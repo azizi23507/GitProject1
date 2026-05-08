@@ -4,6 +4,7 @@ These are all linear structures, which means that each element follows directly 
 in a sequence. Trees however, are different. In a Tree, a single element can have multiple
 next' elements, allowing the data structure to branch out in various directions.
 """
+from fontTools.misc.cython import returns
 
 
 class TreeNode:
@@ -76,3 +77,105 @@ print()
 print()
 print("post order traversal:")
 post_order_traversal(root)
+print()
+
+
+#Binary Search Tree BST
+
+rootbst = TreeNode(13)
+node7 = TreeNode(7)
+node15 = TreeNode(15)
+node3 = TreeNode(3)
+node8 = TreeNode(8)
+node14 = TreeNode(14)
+node19 = TreeNode(19)
+node18 = TreeNode(18)
+
+def search(node, target):
+    if node is None:
+        return None
+    elif node.data == target:
+        return node
+    elif target < node.data:
+        return search(node.left, target)
+    else:
+        return search(node.right, target)
+def insert(node, data):
+    if node is None:
+        return  TreeNode(data)
+    else:
+        if data < node.data:
+            node.left = insert(node.left, data)
+        elif data > node.data:
+            node.right = insert(node.right, data)
+    return node
+
+def min
+rootbst.left = node7
+rootbst.right = node15
+
+node7.left = node3
+node7.right = node8
+
+node15.left = node14
+node15.right = node19
+
+node19.left = node18
+
+print()
+print("in order traversal of BST")
+inorder_traversal(rootbst)
+print()
+print("we want to search for number 14",search(rootbst, 14).data)
+print()
+print("we want to insrt the number 24" )
+insert(rootbst, 24)
+print()
+inorder_traversal(rootbst)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

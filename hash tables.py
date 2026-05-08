@@ -3,19 +3,20 @@
 
 # A Hash Table is a data structure designed to be fast to work with.
 #
-# The reason Hash Tables are sometimes preferred instead of arrays or linked lists is because searching
-# for, adding, and deleting data can be done really quickly, even for large amounts of data.
+# The reason Hash Tables are sometimes preferred instead of arrays or linked lists is because
+# searching, adding, and deleting data can be done really quickly, even for large amounts of data.
 #The most important reason why Hash Tables are great for these things is
 # that Hash Tables are very fast compared Arrays and Linked Lists, especially for large sets.
 # what is a hash code?
-#A number generated from the key by the hash function. It tells us which bucket to put the entry or the key in.
+#A number generated from the key by the hash function. It tells us which bucket to put the entry
+# or the key in.
 
 my_array = ["Pete", "Jones", "Lisa", "Bob", "Siri"]
 
 my_hash_set = [[] for _ in range(11)]
 
-# take an array as parameter and extracts each element from the array and insert in the hash set based on the sum of the
-# unicod of the letters mod 10 which gives an index.
+# take an array as parameter and extracts each element from the array and insert in the hash set
+# based on the sum of the unicod of the letters mod 10 which gives an index.
 def hash_creating_function(array):
     if not isinstance(array, list):
         array = [array]
@@ -23,7 +24,7 @@ def hash_creating_function(array):
         sum_of_chars = 0
         for char in value:
             sum_of_chars += ord(char)
-        index = sum_of_chars % 11
+        index = sum_of_chars % len(my_hash_set)
         # Since each element of the my_hash_set is another array so the index refer
         # to one array not one element and that's why the bucket becomes as array.
         bucket = my_hash_set[index]
@@ -35,10 +36,10 @@ hash_creating_function("Tom")
 hash_creating_function("Stuart")
 print(my_hash_set)
 
-def hash_function(value):
+def create_hash_function2(value):
     return sum(ord(char) for char in value) % 10
 def contains(name):
-    index = hash_function(name)
+    index = create_hash_function2(name)
     return my_hash_set[index] == [name]
 print(contains('Bob'))
 print()
@@ -58,18 +59,18 @@ class SimpleHashSet:
         return sum(ord(char) for char in value) % self.size
 
     def add(self, value):
-        index = hash_function(value)
+        index = self.hash_function(value)
         bucket = self.hash_set[index]
         if value not in bucket:
             bucket.append(value)
 
     def contains(self, value):
-        index = hash_function(value)
+        index = self.hash_function(value)
         bucket = self.hash_set[index]
         return value in bucket
 
     def remove(self, value):
-        index = hash_function(value)
+        index = self.hash_function(value)
         bucket = self.hash_set[index]
         if value in bucket:
             bucket.remove(value)
@@ -113,18 +114,20 @@ print()
 class HashMap:
     def __init__(self, size=100):
         self.size = size
-        self.hash_map = [[] for _ in range(size)] # A list of buckets, each is a list (to handle collisions)
+        self.hash_map = [[] for _ in range(size)] # A list of buckets, each is a list (to handle
+        # collisions)
 
     def hash_function(self, key):
         # Sum only the numerical values of the key, ignoring non-numeric characters
         numeric_sum = sum(int(char) for char in key if char.isdigit())
-        return  numeric_sum % 10 # Perform modulo 10 on the sum that is the number of buckets too.
+        return  numeric_sum % self.size
 
     def put(self, key , value):
         # Add or update a key-value pair
         index = self.hash_function(key)
         bucket = self.hash_map[index]
-        for i , (k, v) in enumerate(bucket): #i → index inside the bucket, (k, v) → key and value of each pair
+        # i → index inside the bucket, (k, v) → key and value of each pair
+        for i , (k, v) in enumerate(bucket):
             if k == key:
                 bucket[i] = (key, value) # Update existing key
                 return
@@ -176,6 +179,7 @@ print("Updating the name for '123-4570' to 'James'")
 hash_map.put("123-4570","James")
 
 print("Name associated with '123-4570':", hash_map.get("123-4570"))
+print(hash_map.hash_map)
 
 
 

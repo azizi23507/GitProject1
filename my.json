@@ -1,9 +1,9 @@
 {
    "my_set": [
-      "apple",
       true,
       42,
-      3.14
+      3.14,
+      "apple"
    ],
    "my_tuple": [
       "banana",
