@@ -91,6 +91,7 @@ node14 = TreeNode(14)
 node19 = TreeNode(19)
 node18 = TreeNode(18)
 
+
 def search(node, target):
     if node is None:
         return None
@@ -100,6 +101,8 @@ def search(node, target):
         return search(node.left, target)
     else:
         return search(node.right, target)
+
+
 def insert(node, data):
     if node is None:
         return  TreeNode(data)
@@ -110,7 +113,40 @@ def insert(node, data):
             node.right = insert(node.right, data)
     return node
 
-def min
+def min_value_node(node):
+    current = node
+    while current.left is not None:
+        current = current.left
+    return current
+
+
+
+def delete(node, data):
+    if not node:
+        return None
+    if data < node.data:
+        node.left = delete(node.left, data)
+    elif data > node.data:
+        node.right = delete(node.righ, data)
+    else:
+        #Node with one or not child
+        if not node.right:
+            temp = node.left
+            node = None
+            return temp
+        elif not node.left:
+            temp = node.left
+            temp = node.right
+            node = None
+            return temp
+
+        # Node with two children:
+        # we call the min_value_node on node.right to get the in-order successor
+        node.data = min_value_node(node.right).data
+        node.right = delete(node.right, node.data)
+
+    return node
+
 rootbst.left = node7
 rootbst.right = node15
 

@@ -4,17 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="learning stack and queue.">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="learning Binary search Tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/hash tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.json" beforeDir="false" afterPath="$PROJECT_DIR$/my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="7859f8e6-cd56-4d8c-843a-8a378ca6e099" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="7859f8e6-cd56-4d8c-843a-8a378ca6e099" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -186,6 +201,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -221,7 +239,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1aa8deef9a7b-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.104" />
+        <option value="bundled-python-sdk-83fa46d5d5d4-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.33514.19" />
       </set>
     </attachedChunks>
   </component>
@@ -298,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778108157949</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="learning Binary search Tree">
+      <option name="closed" value="true" />
+      <created>1778237007199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778237007199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +345,8 @@
     <MESSAGE value="data types" />
     <MESSAGE value="learning stack and queue" />
     <MESSAGE value="learning stack and queue." />
-    <option name="LAST_COMMIT_MESSAGE" value="learning stack and queue." />
+    <MESSAGE value="learning Binary search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning Binary search Tree" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
