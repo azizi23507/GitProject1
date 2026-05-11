@@ -1,5 +1,5 @@
 
-"""class Test:
+class Test:
     def __init__(self, name = None, age = None, test_result = False): # the first parameter is always self, which represents the object's instance in which we can call the attribute
 
         self.name = name
@@ -120,9 +120,9 @@ for x in (car1, boat1, plane1):
 
 
 
-"""
+
 import json
-"""
+
 list1 = list(("apple","apple", "banana", "cherry", "pear", "kiwi", "melon", "grapes", "peach", "apricot"))
 print("apple" in list1)
 list2 = [x.upper() for x in list1]
@@ -400,8 +400,8 @@ mydb = mysql.connector.connect(
     password="shabir123",
     # database = "test"
 )
-
-# my_cursor.execute("CREATE DATABASE mydatabase")
+my_cursor = mydb.cursor()
+my_cursor.execute("CREATE DATABASE mydatabase")
 
 my_cursor.execute("SHOW DATABASES")
 databases = my_cursor.fetchall()
@@ -472,7 +472,7 @@ finally:
     if mydb.is_connected():
         my_cursor.close()
         mydb.close()
-        print("MySQL connection is closed")"""
+        print("MySQL connection is closed")
 
 
 
