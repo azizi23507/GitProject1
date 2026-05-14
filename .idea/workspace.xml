@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="graph basic implementation">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="graphs traversal bfs and dfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,8 @@
   </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
-      <entry key="agent-panel" value="GPT-5 mini" />
       <entry key="inline" value="Auto" />
+      <entry key="agent-panel" value="GPT-5 mini" />
       <entry key="chat-panel" value="GPT-5 mini" />
     </selectedModels>
   </component>
@@ -372,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778621050158</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="graphs traversal bfs and dfs">
+      <option name="closed" value="true" />
+      <created>1778707040570</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778707040570</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +407,8 @@
     <MESSAGE value="deleted extra files" />
     <MESSAGE value="Avl insert and delete" />
     <MESSAGE value="graph basic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph basic implementation" />
+    <MESSAGE value="graphs traversal bfs and dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphs traversal bfs and dfs" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
