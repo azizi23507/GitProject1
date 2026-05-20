@@ -17,7 +17,7 @@ def print_adjacency_matrix(matrix):
     print()
     index = 0
     for row in matrix:
-        print(*vertx_data[index], end="")
+        print(vertx_data[index], end="")
         for i in row:
             print("", i, end="")
         index += 1
@@ -61,11 +61,17 @@ class Graph:
 
     def print_graph(self):
         print("Adjacency Matrix:")
+        print("  ", end="")
         for i in self.vertex_data:
             print(i, end=" ")
         print()
+        index = 0
         for row in self.adj_matrix:
-            print(' '.join(map(str, row)))
+            print(self.vertex_data[index], end="")
+            for i in row:
+                print("", i, end="")
+            index += 1
+            print()
         print("\nVertex Data:")
         for vertex, data in enumerate(self.vertex_data):
             print(f"Vertex {vertex}: {data}")
