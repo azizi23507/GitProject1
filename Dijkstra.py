@@ -15,11 +15,17 @@ class Graph:
 
     def print_graph(self):
         print("Adjacency Matrix:")
+        print("  ", end="")
         for i in self.vertex_data:
             print(i, end=" ")
         print()
+        index = 0
         for row in self.adj_matrix:
-            print(' '.join(map(str, row)))
+            print(self.vertex_data[index], end="")
+            for i in row:
+                print("", i, end="")
+            index += 1
+            print()
         print("\nVertex Data:")
         for vertex, data in enumerate(self.vertex_data):
             print(f"Vertex {vertex}: {data}")
@@ -27,6 +33,7 @@ class Graph:
     def dijkstra(self, start_vertex_data):
         start_vertex = self.vertex_data.index(start_vertex_data)
         distances = [float('inf')] * self.size
+        predecessors = [None] * self.size
         distances[start_vertex] = 0
         visited = [False] * self.size
 
@@ -48,9 +55,20 @@ class Graph:
                     alt = distances[u] + self.adj_matrix[u][v]
                     if alt < distances[v]:
                         distances[v] = alt
+                        predecessors[v] = u
 
-        return distances
+        return distances, predecessors
 
+    def get_path(self, predecessors, start_vertex, end_vertex):
+        path = []
+        current = self.vertex_data.index(end_vertex)
+        while current is not None:
+            path.insert(0, self.vertex_data[current])
+            current = predecessors[current]
+            if current == self.vertex_data.index(start_vertex):
+                path.insert(0, start_vertex)
+                break
+        return "->".join(path)
 
 g = Graph(7)
 
@@ -72,9 +90,16 @@ g.add_edge(2, 5, 5)  # C -> F, weight 5
 g.add_edge(1, 2, 2)  # B -> C, weight 2
 g.add_edge(1, 5, 2)  # B -> F, weight 2
 g.add_edge(6, 5, 5)  # G -> F, weight 5
+print()
 g.print_graph()
+print()
 # Dijkstra's algorithm from D to all vertices
 print("Dijkstra's Algorithm starting from vertex D:\n")
-distance = g.dijkstra('D')
+distance, predecessors = g.dijkstra('D')
 for p, d in enumerate(distance):
     print(f"Shortest distance from D to {g.vertex_data[p]}: {d}")
+print(predecessors)
+
+for i, f in enumerate(distance):
+    path = g.get_path(predecessors, 'D', g.vertex_data[i])
+    print(f"{path}, Distance: {f}")
