@@ -311,7 +311,7 @@ if os.path.exists("text.txt"):
 else:
     print("the does not exist")
 
-from test import print_hello as p
+from numpy import print_hello as p
 p()
 import datetime
 
