@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git reset *)"
+      "Bash(git reset *)",
+      "Bash(pip show *)",
+      "Bash(dir C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1 *)",
+      "Bash(dir \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\" /b /ad)",
+      "Bash(\"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv\\\\Scripts\\\\python.exe\" --version)",
+      "Bash(\"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" --version)"
     ]
   }
 }

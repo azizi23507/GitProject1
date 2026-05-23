@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="jp notebook pandas">
-      <change afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scipy.ipynb" afterDir="false" />
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="scipy and matplotlib">
+      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertising.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Advertising.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.json" beforeDir="false" afterPath="$PROJECT_DIR$/my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scipy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scipy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,61 +84,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9741191234158353E-11" />
-      <entry key="MS500" value="0.007374356426008747" />
-      <entry key="S2" value="0.4514603909325671" />
-      <entry key="S5" value="1.5305923382651994" />
-      <entry key="S10" value="2.89316720533596" />
-      <entry key="S30" value="6.039835584338221" />
-      <entry key="S60" value="8.777349125447753" />
-      <entry key="M2" value="15.022004285421033" />
-      <entry key="M5" value="30.80766672950112" />
-      <entry key="M10" value="44.79043002300533" />
-      <entry key="M15" value="55.101890946506366" />
-      <entry key="M30" value="89.04019527513043" />
-      <entry key="H1" value="157.20595955330592" />
-      <entry key="H2" value="261.2445966323465" />
-      <entry key="H4" value="384.6463248720445" />
-      <entry key="D1" value="629.7306064665456" />
-      <entry key="W1" value="712.5521114128459" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000106854029664" />
+      <entry key="S2" value="1.059235010870921" />
+      <entry key="S5" value="1.4739849206604574" />
+      <entry key="S10" value="2.3431734526450554" />
+      <entry key="S30" value="4.80301654630639" />
+      <entry key="S60" value="7.404190566798649" />
+      <entry key="M2" value="10.64127801187864" />
+      <entry key="M5" value="14.671308319072898" />
+      <entry key="M10" value="21.147648300030845" />
+      <entry key="M15" value="30.383443256247453" />
+      <entry key="M30" value="60.882176614365804" />
+      <entry key="H1" value="107.3084392486427" />
+      <entry key="H2" value="184.2534820731261" />
+      <entry key="H4" value="324.18144113449586" />
+      <entry key="D1" value="740.0664908543298" />
+      <entry key="W1" value="902.2414709702963" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000284113522" />
-      <entry key="S2" value="1.0167972185142629" />
-      <entry key="S5" value="1.2923350697684222" />
-      <entry key="S10" value="1.9393969835218219" />
-      <entry key="S30" value="4.755070957406495" />
-      <entry key="S60" value="7.682207571819229" />
-      <entry key="M2" value="10.952823841547708" />
-      <entry key="M5" value="15.323677413478986" />
-      <entry key="M10" value="18.546212121897256" />
-      <entry key="M15" value="20.93946962952694" />
-      <entry key="M30" value="28.525862779013888" />
-      <entry key="H1" value="43.351910468679876" />
-      <entry key="H2" value="65.94668131358247" />
-      <entry key="H4" value="91.83455570614665" />
-      <entry key="D1" value="134.89187995288245" />
-      <entry key="W1" value="147.50643139642327" />
+      <entry key="MS100" value="2.6819226072527263E-38" />
+      <entry key="MS500" value="3.059773283362386E-8" />
+      <entry key="S2" value="0.013225950516864947" />
+      <entry key="S5" value="0.179053699378577" />
+      <entry key="S10" value="0.4637457771579535" />
+      <entry key="S30" value="1.1922120270727288" />
+      <entry key="S60" value="1.9437241716840423" />
+      <entry key="M2" value="2.8729600714511174" />
+      <entry key="M5" value="3.9221818503663703" />
+      <entry key="M10" value="4.7031580033365925" />
+      <entry key="M15" value="5.866232032057852" />
+      <entry key="M30" value="10.71158729409085" />
+      <entry key="H1" value="19.018951013564628" />
+      <entry key="H2" value="34.96075518207954" />
+      <entry key="H4" value="65.54124215153982" />
+      <entry key="D1" value="148.8921386841138" />
+      <entry key="W1" value="178.1956802559694" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.778234847515601E-4" />
-      <entry key="MS500" value="0.20696859593212125" />
-      <entry key="S2" value="0.9336688574495542" />
-      <entry key="S5" value="2.4003740389117922" />
-      <entry key="S10" value="4.481303670105057" />
-      <entry key="S30" value="10.458494119237368" />
-      <entry key="S60" value="16.18488957033367" />
-      <entry key="M2" value="25.785481841312237" />
-      <entry key="M5" value="46.03062165802208" />
-      <entry key="M10" value="63.276241464501204" />
-      <entry key="M15" value="75.99550499595878" />
-      <entry key="M30" value="117.53406076515729" />
-      <entry key="H1" value="200.53286066293563" />
-      <entry key="H2" value="327.1719394352797" />
-      <entry key="H4" value="476.4673399146409" />
-      <entry key="D1" value="764.6191311850555" />
-      <entry key="W1" value="860.0580126848922" />
+      <entry key="MS100" value="0.5034777750283593" />
+      <entry key="MS500" value="0.8717648085624264" />
+      <entry key="S2" value="1.0235051193108131" />
+      <entry key="S5" value="1.5602598543731963" />
+      <entry key="S10" value="2.6957942981894845" />
+      <entry key="S30" value="5.907408136350471" />
+      <entry key="S60" value="9.276157020720097" />
+      <entry key="M2" value="13.460334136019108" />
+      <entry key="M5" value="18.56349154341115" />
+      <entry key="M10" value="25.83219996972533" />
+      <entry key="M15" value="36.23371159061149" />
+      <entry key="M30" value="71.57805917957761" />
+      <entry key="H1" value="126.31267846451982" />
+      <entry key="H2" value="219.20110257760834" />
+      <entry key="H4" value="389.7111702333639" />
+      <entry key="D1" value="888.9545458788513" />
+      <entry key="W1" value="1080.4364554977" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -175,40 +178,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.AVL tree.executor": "Run",
-    "Python.Bellman-Ford.executor": "Run",
-    "Python.Dijkstra.executor": "Run",
-    "Python.MST.executor": "Run",
-    "Python.diagram.executor": "Run",
-    "Python.dsa.executor": "Run",
-    "Python.graphs.executor": "Run",
-    "Python.hash tables.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.ml.executor": "Run",
-    "Python.plt.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.trees.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shabi/PycharmProjects/GitProject1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion.inline"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.AVL tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bellman-Ford.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dsa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash tables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trees.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shabi/PycharmProjects/GitProject1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.lsp.tool.dont.ask.Ruff&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shabi\PycharmProjects\GitProject1" />
@@ -528,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779535612879</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="scipy and matplotlib">
+      <option name="closed" value="true" />
+      <created>1779548789518</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1779548789518</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +577,8 @@
     <MESSAGE value="BHellman ford and MST" />
     <MESSAGE value="numpy and pandas" />
     <MESSAGE value="jp notebook pandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="jp notebook pandas" />
+    <MESSAGE value="scipy and matplotlib" />
+    <option name="LAST_COMMIT_MESSAGE" value="scipy and matplotlib" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
