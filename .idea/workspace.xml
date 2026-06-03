@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="stats proportion questions">
-      <change afterPath="$PROJECT_DIR$/ufunc NumPy.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GitProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitProject1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="numpy ufunc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CI and Hypothesis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CI and Hypothesis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,61 +76,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000008107635" />
-      <entry key="MS500" value="1.0151981219407886" />
-      <entry key="S2" value="1.3761241500961985" />
-      <entry key="S5" value="1.905302287068688" />
-      <entry key="S10" value="2.4264752985878544" />
-      <entry key="S30" value="3.2388273959571268" />
-      <entry key="S60" value="3.751775665365668" />
-      <entry key="M2" value="4.6562623622734165" />
-      <entry key="M5" value="8.059134319293527" />
-      <entry key="M10" value="17.224588348276413" />
-      <entry key="M15" value="27.43684903673122" />
-      <entry key="M30" value="59.660701430185746" />
-      <entry key="H1" value="121.6425533911262" />
-      <entry key="H2" value="214.94864947605058" />
-      <entry key="H4" value="347.7905161587196" />
-      <entry key="D1" value="1077.5304647079067" />
-      <entry key="W1" value="2775.6492099151383" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000002" />
+      <entry key="S2" value="1.0005631411541422" />
+      <entry key="S5" value="1.1471673907415467" />
+      <entry key="S10" value="2.059886681821608" />
+      <entry key="S30" value="6.249351701567127" />
+      <entry key="S60" value="10.719370248224822" />
+      <entry key="M2" value="16.31918082037921" />
+      <entry key="M5" value="24.585416444605993" />
+      <entry key="M10" value="35.08946639922642" />
+      <entry key="M15" value="45.58767185029348" />
+      <entry key="M30" value="77.94055556624045" />
+      <entry key="H1" value="140.10292521823868" />
+      <entry key="H2" value="234.27586846042138" />
+      <entry key="H4" value="368.24378271978185" />
+      <entry key="D1" value="1100.2108029300125" />
+      <entry key="W1" value="2799.7991689247074" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.466907207594265E-17" />
-      <entry key="MS500" value="4.2984373250260237E-4" />
-      <entry key="S2" value="0.1571204089383509" />
-      <entry key="S5" value="0.6373565592876246" />
-      <entry key="S10" value="1.0990974640024325" />
-      <entry key="S30" value="1.6279321027430955" />
-      <entry key="S60" value="1.8029796917187655" />
-      <entry key="M2" value="1.9061752155619534" />
-      <entry key="M5" value="2.5453285772153045" />
-      <entry key="M10" value="5.033630469876258" />
-      <entry key="M15" value="7.79910256550882" />
-      <entry key="M30" value="16.266296288410054" />
-      <entry key="H1" value="32.44813772889902" />
-      <entry key="H2" value="55.71350508283158" />
-      <entry key="H4" value="84.38474142274593" />
-      <entry key="D1" value="216.424834773261" />
-      <entry key="W1" value="542.1641238419778" />
+      <entry key="MS100" value="3.807872503422988E-181" />
+      <entry key="MS500" value="8.24398450992594E-37" />
+      <entry key="S2" value="9.95472261332211E-10" />
+      <entry key="S5" value="3.4945645447200267E-4" />
+      <entry key="S10" value="0.030644084832972193" />
+      <entry key="S30" value="0.772110696349966" />
+      <entry key="S60" value="1.973213070197202" />
+      <entry key="M2" value="3.451394648172415" />
+      <entry key="M5" value="5.463342049459069" />
+      <entry key="M10" value="8.219187307963082" />
+      <entry key="M15" value="11.025930803053138" />
+      <entry key="M30" value="19.514129308172063" />
+      <entry key="H1" value="35.741906867825314" />
+      <entry key="H2" value="59.26073401750495" />
+      <entry key="H4" value="88.28849129131588" />
+      <entry key="D1" value="220.95927835922535" />
+      <entry key="W1" value="546.9981217715779" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.5346560479216325E-6" />
-      <entry key="MS500" value="0.08621443386946283" />
-      <entry key="S2" value="0.8586002152202711" />
-      <entry key="S5" value="2.0002313627423365" />
-      <entry key="S10" value="3.1412665187936253" />
-      <entry key="S30" value="4.698931975790352" />
-      <entry key="S60" value="5.464453276580862" />
-      <entry key="M2" value="6.515264278837788" />
-      <entry key="M5" value="10.579941268696789" />
-      <entry key="M10" value="22.23473460911764" />
-      <entry key="M15" value="35.21194429481025" />
-      <entry key="M30" value="75.90251332079801" />
-      <entry key="H1" value="154.06692862688752" />
-      <entry key="H2" value="270.6418627378588" />
-      <entry key="H4" value="432.1598774891633" />
-      <entry key="D1" value="1293.9489223677656" />
-      <entry key="W1" value="3317.8111564020223" />
+      <entry key="MS100" value="5.203802411750738E-72" />
+      <entry key="MS500" value="7.416386923289637E-15" />
+      <entry key="S2" value="8.118807762349958E-4" />
+      <entry key="S5" value="0.18195677312394518" />
+      <entry key="S10" value="1.2640686966444297" />
+      <entry key="S30" value="6.496175331945405" />
+      <entry key="S60" value="12.321101224018303" />
+      <entry key="M2" value="19.525035476122905" />
+      <entry key="M5" value="29.92179954682826" />
+      <entry key="M10" value="43.23036111738098" />
+      <entry key="M15" value="56.55234943140628" />
+      <entry key="M30" value="97.41120855845035" />
+      <entry key="H1" value="175.81143119745226" />
+      <entry key="H2" value="293.5113763773351" />
+      <entry key="H4" value="456.51435706617605" />
+      <entry key="D1" value="1321.1632610961121" />
+      <entry key="W1" value="3346.7950487337703" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -634,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780432982615</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="numpy ufunc">
+      <option name="closed" value="true" />
+      <created>1780499130779</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1780499130779</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learning stack and queue." />
     <MESSAGE value="learning Binary search Tree" />
     <MESSAGE value="deleting from a BST" />
     <MESSAGE value="deleted extra files" />
@@ -677,7 +676,8 @@
     <MESSAGE value="two tail z  and t tests" />
     <MESSAGE value="z test and t test questions" />
     <MESSAGE value="stats proportion questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="stats proportion questions" />
+    <MESSAGE value="numpy ufunc" />
+    <option name="LAST_COMMIT_MESSAGE" value="numpy ufunc" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
