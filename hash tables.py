@@ -129,7 +129,7 @@ class HashMap:
         # i → index inside the bucket, (k, v) → key and value of each pair
         for i , (k, v) in enumerate(bucket):
             if k == key:
-                bucket[i] = (key, value) # Update existing key
+                bucket[i] = (key, value) # Update existing key as tuple
                 return
         bucket.append((key, value)) # Add new key-value pair if not found
 
@@ -166,7 +166,7 @@ hash_map.put("123-4568", "Thomas")
 hash_map.put("123-4569", "Jens")
 hash_map.put("123-4570", "Peter")
 hash_map.put("123-4571", "Lisa")
-hash_map.put("123-4672", "Adele")
+hash_map.put("123-4672", {"name":"Adele", "age": 25})
 hash_map.put("123-4573", "Michaela")
 hash_map.put("123-6574", "Bob")
 

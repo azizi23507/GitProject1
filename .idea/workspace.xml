@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="numpy ufunc">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="pamdas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/hash tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -77,60 +86,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000000002" />
-      <entry key="S2" value="1.0005631411541422" />
-      <entry key="S5" value="1.1471673907415467" />
-      <entry key="S10" value="2.059886681821608" />
-      <entry key="S30" value="6.249351701567127" />
-      <entry key="S60" value="10.719370248224822" />
-      <entry key="M2" value="16.31918082037921" />
-      <entry key="M5" value="24.585416444605993" />
-      <entry key="M10" value="35.08946639922642" />
-      <entry key="M15" value="45.58767185029348" />
-      <entry key="M30" value="77.94055556624045" />
-      <entry key="H1" value="140.10292521823868" />
-      <entry key="H2" value="234.27586846042138" />
-      <entry key="H4" value="368.24378271978185" />
-      <entry key="D1" value="1100.2108029300125" />
-      <entry key="W1" value="2799.7991689247074" />
+      <entry key="MS500" value="1.0001032881037042" />
+      <entry key="S2" value="1.1531096539167802" />
+      <entry key="S5" value="1.8818158439097574" />
+      <entry key="S10" value="3.3277770375034708" />
+      <entry key="S30" value="7.375547131816833" />
+      <entry key="S60" value="9.65843420291945" />
+      <entry key="M2" value="11.16841457286274" />
+      <entry key="M5" value="12.524652167755765" />
+      <entry key="M10" value="16.636028188599052" />
+      <entry key="M15" value="22.967606965369402" />
+      <entry key="M30" value="41.72233290907887" />
+      <entry key="H1" value="69.28692063163999" />
+      <entry key="H2" value="118.19466998534192" />
+      <entry key="H4" value="232.14318850112792" />
+      <entry key="D1" value="1048.511016318206" />
+      <entry key="W1" value="2870.541404051202" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.807872503422988E-181" />
-      <entry key="MS500" value="8.24398450992594E-37" />
-      <entry key="S2" value="9.95472261332211E-10" />
-      <entry key="S5" value="3.4945645447200267E-4" />
-      <entry key="S10" value="0.030644084832972193" />
-      <entry key="S30" value="0.772110696349966" />
-      <entry key="S60" value="1.973213070197202" />
-      <entry key="M2" value="3.451394648172415" />
-      <entry key="M5" value="5.463342049459069" />
-      <entry key="M10" value="8.219187307963082" />
-      <entry key="M15" value="11.025930803053138" />
-      <entry key="M30" value="19.514129308172063" />
-      <entry key="H1" value="35.741906867825314" />
-      <entry key="H2" value="59.26073401750495" />
-      <entry key="H4" value="88.28849129131588" />
-      <entry key="D1" value="220.95927835922535" />
-      <entry key="W1" value="546.9981217715779" />
+      <entry key="MS100" value="2.523782467193297E-117" />
+      <entry key="MS500" value="5.031686797850347E-24" />
+      <entry key="S2" value="2.180012020200471E-6" />
+      <entry key="S5" value="0.008109142796923539" />
+      <entry key="S10" value="0.1269979807858955" />
+      <entry key="S30" value="0.7974123564832004" />
+      <entry key="S60" value="1.262765697019556" />
+      <entry key="M2" value="1.5891969510414303" />
+      <entry key="M5" value="1.8786064281432793" />
+      <entry key="M10" value="2.7143695289358933" />
+      <entry key="M15" value="4.143000043528102" />
+      <entry key="M30" value="8.733663272926831" />
+      <entry key="H1" value="15.331382538288745" />
+      <entry key="H2" value="26.733623086901815" />
+      <entry key="H4" value="52.89529527191076" />
+      <entry key="D1" value="211.9939577120556" />
+      <entry key="W1" value="562.921312584995" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.203802411750738E-72" />
-      <entry key="MS500" value="7.416386923289637E-15" />
-      <entry key="S2" value="8.118807762349958E-4" />
-      <entry key="S5" value="0.18195677312394518" />
-      <entry key="S10" value="1.2640686966444297" />
-      <entry key="S30" value="6.496175331945405" />
-      <entry key="S60" value="12.321101224018303" />
-      <entry key="M2" value="19.525035476122905" />
-      <entry key="M5" value="29.92179954682826" />
-      <entry key="M10" value="43.23036111738098" />
-      <entry key="M15" value="56.55234943140628" />
-      <entry key="M30" value="97.41120855845035" />
-      <entry key="H1" value="175.81143119745226" />
-      <entry key="H2" value="293.5113763773351" />
-      <entry key="H4" value="456.51435706617605" />
-      <entry key="D1" value="1321.1632610961121" />
-      <entry key="W1" value="3346.7950487337703" />
+      <entry key="MS100" value="3.4897825365088296E-12" />
+      <entry key="MS500" value="0.005123000460644909" />
+      <entry key="S2" value="0.36708191086963926" />
+      <entry key="S5" value="1.3657970234427883" />
+      <entry key="S10" value="3.0943192545564218" />
+      <entry key="S30" value="7.982396106211387" />
+      <entry key="S60" value="10.806642048007003" />
+      <entry key="M2" value="12.693943422390916" />
+      <entry key="M5" value="14.375228267140283" />
+      <entry key="M10" value="19.331294687551345" />
+      <entry key="M15" value="27.09230368228825" />
+      <entry key="M30" value="50.43718508941536" />
+      <entry key="H1" value="84.59980892815845" />
+      <entry key="H2" value="144.91137532008727" />
+      <entry key="H4" value="285.0234006471451" />
+      <entry key="D1" value="1260.4973337255592" />
+      <entry key="W1" value="3433.4602341865652" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -170,53 +179,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.AVL tree.executor": "Run",
-    "Python.Bellman-Ford.executor": "Run",
-    "Python.Dijkstra.executor": "Run",
-    "Python.MST.executor": "Run",
-    "Python.diagram.executor": "Run",
-    "Python.dsa.executor": "Run",
-    "Python.graphs.executor": "Run",
-    "Python.hash tables.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.ml.executor": "Run",
-    "Python.plt.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.trees.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shabi/PycharmProjects/GitProject1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.lsp.tool.dont.ask.Ruff": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.AVL tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bellman-Ford.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dsa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash tables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trees.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shabi/PycharmProjects/GitProject1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.lsp.tool.dont.ask.Ruff&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Jupyter"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Jupyter&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shabi\PycharmProjects\GitProject1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AVL tree">
+  <component name="RunManager" selected="Python.hash tables">
     <configuration name="AVL tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GitProject1" />
       <option name="ENV_FILES" value="" />
@@ -313,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hash tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GitProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,9 +335,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash tables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,19 +347,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.MST" />
+      <item itemvalue="Python.AVL tree" />
       <item itemvalue="Python.Bellman-Ford" />
       <item itemvalue="Python.Dijkstra" />
-      <item itemvalue="Python.AVL tree" />
-      <item itemvalue="Python.graphs" />
+      <item itemvalue="Python.MST" />
+      <item itemvalue="Python.hash tables" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hash tables" />
         <item itemvalue="Python.AVL tree" />
         <item itemvalue="Python.Dijkstra" />
         <item itemvalue="Python.MST" />
         <item itemvalue="Python.Bellman-Ford" />
-        <item itemvalue="Python.graphs" />
       </list>
     </recent_temporary>
   </component>
@@ -634,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780499130779</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="pamdas">
+      <option name="closed" value="true" />
+      <created>1780499657425</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1780499657425</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learning Binary search Tree" />
     <MESSAGE value="deleting from a BST" />
     <MESSAGE value="deleted extra files" />
     <MESSAGE value="Avl insert and delete" />
@@ -677,7 +693,8 @@
     <MESSAGE value="z test and t test questions" />
     <MESSAGE value="stats proportion questions" />
     <MESSAGE value="numpy ufunc" />
-    <option name="LAST_COMMIT_MESSAGE" value="numpy ufunc" />
+    <MESSAGE value="pamdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="pamdas" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
