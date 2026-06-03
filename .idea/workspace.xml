@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="z test and t test questions">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="stats proportion questions">
+      <change afterPath="$PROJECT_DIR$/ufunc NumPy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CI and Hypothesis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CI and Hypothesis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,61 +84,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000389" />
-      <entry key="S5" value="1.0000043276042363" />
-      <entry key="S10" value="1.0020802894597773" />
-      <entry key="S30" value="1.1278188462282592" />
-      <entry key="S60" value="1.4087617366263845" />
-      <entry key="M2" value="2.54436021977536" />
-      <entry key="M5" value="7.329836071825239" />
-      <entry key="M10" value="11.892238385105284" />
-      <entry key="M15" value="14.491192451868569" />
-      <entry key="M30" value="23.275661921405124" />
-      <entry key="H1" value="47.04566738606035" />
-      <entry key="H2" value="95.1368175674581" />
-      <entry key="H4" value="202.84201829734363" />
-      <entry key="D1" value="838.2168647350674" />
-      <entry key="W1" value="2430.027770445882" />
+      <entry key="MS100" value="1.0000000008107635" />
+      <entry key="MS500" value="1.0151981219407886" />
+      <entry key="S2" value="1.3761241500961985" />
+      <entry key="S5" value="1.905302287068688" />
+      <entry key="S10" value="2.4264752985878544" />
+      <entry key="S30" value="3.2388273959571268" />
+      <entry key="S60" value="3.751775665365668" />
+      <entry key="M2" value="4.6562623622734165" />
+      <entry key="M5" value="8.059134319293527" />
+      <entry key="M10" value="17.224588348276413" />
+      <entry key="M15" value="27.43684903673122" />
+      <entry key="M30" value="59.660701430185746" />
+      <entry key="H1" value="121.6425533911262" />
+      <entry key="H2" value="214.94864947605058" />
+      <entry key="H4" value="347.7905161587196" />
+      <entry key="D1" value="1077.5304647079067" />
+      <entry key="W1" value="2775.6492099151383" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="7.366997570586899E-170" />
-      <entry key="S30" value="4.2239904924090776E-57" />
-      <entry key="S60" value="7.03948539389284E-29" />
-      <entry key="M2" value="1.04406655223284E-14" />
-      <entry key="M5" value="4.409713337095662E-6" />
-      <entry key="M10" value="0.00589160103414402" />
-      <entry key="M15" value="0.08203700817989762" />
-      <entry key="M30" value="1.3441623570030001" />
-      <entry key="H1" value="5.925966773016925" />
-      <entry key="H2" value="14.748123271705515" />
-      <entry key="H4" value="32.214684243760786" />
-      <entry key="D1" value="141.6034191263881" />
-      <entry key="W1" value="448.760917778922" />
+      <entry key="MS100" value="1.466907207594265E-17" />
+      <entry key="MS500" value="4.2984373250260237E-4" />
+      <entry key="S2" value="0.1571204089383509" />
+      <entry key="S5" value="0.6373565592876246" />
+      <entry key="S10" value="1.0990974640024325" />
+      <entry key="S30" value="1.6279321027430955" />
+      <entry key="S60" value="1.8029796917187655" />
+      <entry key="M2" value="1.9061752155619534" />
+      <entry key="M5" value="2.5453285772153045" />
+      <entry key="M10" value="5.033630469876258" />
+      <entry key="M15" value="7.79910256550882" />
+      <entry key="M30" value="16.266296288410054" />
+      <entry key="H1" value="32.44813772889902" />
+      <entry key="H2" value="55.71350508283158" />
+      <entry key="H4" value="84.38474142274593" />
+      <entry key="D1" value="216.424834773261" />
+      <entry key="W1" value="542.1641238419778" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.002859542374893799" />
-      <entry key="MS500" value="0.3099269249847466" />
-      <entry key="S2" value="0.7461305576870582" />
-      <entry key="S5" value="0.8894633013895501" />
-      <entry key="S10" value="0.9451868732401661" />
-      <entry key="S30" value="1.1083869509576032" />
-      <entry key="S60" value="1.398865962403026" />
-      <entry key="M2" value="2.5389734397005492" />
-      <entry key="M5" value="7.3269013096586075" />
-      <entry key="M10" value="11.896247257147838" />
-      <entry key="M15" value="14.57153571798973" />
-      <entry key="M30" value="24.61658493662631" />
-      <entry key="H1" value="52.96617887628322" />
-      <entry key="H2" value="109.87891501610775" />
-      <entry key="H4" value="235.05080222347485" />
-      <entry key="D1" value="979.816251391463" />
-      <entry key="W1" value="2878.7869257935718" />
+      <entry key="MS100" value="3.5346560479216325E-6" />
+      <entry key="MS500" value="0.08621443386946283" />
+      <entry key="S2" value="0.8586002152202711" />
+      <entry key="S5" value="2.0002313627423365" />
+      <entry key="S10" value="3.1412665187936253" />
+      <entry key="S30" value="4.698931975790352" />
+      <entry key="S60" value="5.464453276580862" />
+      <entry key="M2" value="6.515264278837788" />
+      <entry key="M5" value="10.579941268696789" />
+      <entry key="M10" value="22.23473460911764" />
+      <entry key="M15" value="35.21194429481025" />
+      <entry key="M30" value="75.90251332079801" />
+      <entry key="H1" value="154.06692862688752" />
+      <entry key="H2" value="270.6418627378588" />
+      <entry key="H4" value="432.1598774891633" />
+      <entry key="D1" value="1293.9489223677656" />
+      <entry key="W1" value="3317.8111564020223" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -170,48 +178,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.AVL tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bellman-Ford.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Dijkstra.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MST.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diagram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dsa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hash tables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ml.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trees.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shabi/PycharmProjects/GitProject1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.lsp.tool.dont.ask.Ruff&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.AVL tree.executor": "Run",
+    "Python.Bellman-Ford.executor": "Run",
+    "Python.Dijkstra.executor": "Run",
+    "Python.MST.executor": "Run",
+    "Python.diagram.executor": "Run",
+    "Python.dsa.executor": "Run",
+    "Python.graphs.executor": "Run",
+    "Python.hash tables.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.ml.executor": "Run",
+    "Python.plt.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.trees.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/shabi/PycharmProjects/GitProject1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.lsp.tool.dont.ask.Ruff": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Jupyter"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shabi\PycharmProjects\GitProject1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MST">
+  <component name="RunManager" selected="Python.AVL tree">
     <configuration name="AVL tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GitProject1" />
       <option name="ENV_FILES" value="" />
@@ -341,11 +354,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AVL tree" />
+        <item itemvalue="Python.Dijkstra" />
         <item itemvalue="Python.MST" />
         <item itemvalue="Python.Bellman-Ford" />
-        <item itemvalue="Python.Dijkstra" />
         <item itemvalue="Python.graphs" />
-        <item itemvalue="Python.AVL tree" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780419110663</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="stats proportion questions">
+      <option name="closed" value="true" />
+      <created>1780432982615</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1780432982615</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learning stack and queue" />
     <MESSAGE value="learning stack and queue." />
     <MESSAGE value="learning Binary search Tree" />
     <MESSAGE value="deleting from a BST" />
@@ -656,7 +676,8 @@
     <MESSAGE value="Sample size" />
     <MESSAGE value="two tail z  and t tests" />
     <MESSAGE value="z test and t test questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="z test and t test questions" />
+    <MESSAGE value="stats proportion questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="stats proportion questions" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -6,7 +6,20 @@
       "Bash(dir C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1 *)",
       "Bash(dir \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\" /b /ad)",
       "Bash(\"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv\\\\Scripts\\\\python.exe\" --version)",
-      "Bash(\"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" --version)"
+      "Bash(\"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" --version)",
+      "Bash(python *)",
+      "PowerShell(& \"C:\\\\Users\\\\shabi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" -m pip show ipykernel 2>&1)",
+      "Bash(C:/Users/shabi/AppData/Local/Programs/Python/Python312/python.exe *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(py *)",
+      "PowerShell(& \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" -c \"import sys; print\\(sys.version\\)\" 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" -m ipykernel --version 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" -c \"import zmq; print\\('zmq', zmq.__version__\\)\" 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\shabi\\\\PycharmProjects\\\\GitProject1\\\\.venv1\\\\Scripts\\\\python.exe\" -m ipykernel install --user 2>&1)",
+      "PowerShell([System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\) -split \";\" | Select-String -Pattern \"Python|MySQL|python\" | Select-Object -ExpandProperty Line)",
+      "PowerShell(Start-Process -FilePath $uninstallExe -ArgumentList \"/uninstall /quiet\" -Wait)",
+      "PowerShell($uninstallExe = \"C:\\\\Users\\\\shabi\\\\AppData\\\\Local\\\\Package Cache\\\\{f599560c-4808-4daa-85d8-15f363099f67}\\\\python-3.9.13-amd64.exe\")",
+      "PowerShell([System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) -split \";\" | Select-String \"Python\" | Select-Object -ExpandProperty Line)"
     ]
   }
 }
