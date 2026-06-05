@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="matplotlib histogram, bars, and pie chart">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy Optimizers and Spatial Data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scipy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scipy.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -657,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780574574923</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Scipy Optimizers and Spatial Data">
+      <option name="closed" value="true" />
+      <created>1780678585324</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1780678585324</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted extra files" />
     <MESSAGE value="Avl insert and delete" />
     <MESSAGE value="graph basic implementation" />
     <MESSAGE value="graphs traversal bfs and dfs" />
@@ -700,7 +706,8 @@
     <MESSAGE value="numpy ufunc" />
     <MESSAGE value="pamdas" />
     <MESSAGE value="matplotlib histogram, bars, and pie chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="matplotlib histogram, bars, and pie chart" />
+    <MESSAGE value="Scipy Optimizers and Spatial Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scipy Optimizers and Spatial Data" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
