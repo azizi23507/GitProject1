@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy interpolation">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy Significance tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CI and Hypothesis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CI and Hypothesis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scipy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scipy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -673,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780696720382</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Scipy Significance tests">
+      <option name="closed" value="true" />
+      <created>1781002489344</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1781002489344</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graph basic implementation" />
     <MESSAGE value="graphs traversal bfs and dfs" />
     <MESSAGE value="graphs dfs cycle detection" />
     <MESSAGE value="small changes" />
@@ -716,7 +722,8 @@
     <MESSAGE value="matplotlib histogram, bars, and pie chart" />
     <MESSAGE value="Scipy Optimizers and Spatial Data" />
     <MESSAGE value="Scipy interpolation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scipy interpolation" />
+    <MESSAGE value="Scipy Significance tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scipy Significance tests" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
