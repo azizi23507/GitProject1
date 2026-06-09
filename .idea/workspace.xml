@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy Significance tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advertising.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random Numpy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scipy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufunc NumPy.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -680,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781002489344</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Scipy Significance tests">
+      <option name="closed" value="true" />
+      <created>1781009112072</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1781009112072</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
