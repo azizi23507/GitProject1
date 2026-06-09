@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy Optimizers and Spatial Data">
+    <list default="true" id="d01c35c3-0626-4c90-aa6c-308c33aedca5" name="Changes" comment="Scipy interpolation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI and Hypothesis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CI and Hypothesis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scipy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scipy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/stats.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -664,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780678585324</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Scipy interpolation">
+      <option name="closed" value="true" />
+      <created>1780696720382</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1780696720382</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Avl insert and delete" />
     <MESSAGE value="graph basic implementation" />
     <MESSAGE value="graphs traversal bfs and dfs" />
     <MESSAGE value="graphs dfs cycle detection" />
@@ -707,7 +715,8 @@
     <MESSAGE value="pamdas" />
     <MESSAGE value="matplotlib histogram, bars, and pie chart" />
     <MESSAGE value="Scipy Optimizers and Spatial Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scipy Optimizers and Spatial Data" />
+    <MESSAGE value="Scipy interpolation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scipy interpolation" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
